@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mansour Hussain | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-50 min-h-screen">
+    <div class="max-w-5xl mx-auto px-4 py-8 md:py-12">
+      <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold tracking-tight">
+            Mansour Hussain
+          </h1>
+          <p class="text-slate-400 mt-1">
+            Fraud Data Specialist · Data Analyst · Saudi Arabia
+          </p>
+        </div>
+        <nav class="flex flex-wrap gap-3 text-sm">
+          <a href="#about" class="hover:text-cyan-400 transition">About</a>
+          <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+          <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+          <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+        </nav>
+      </header>
+
+      <section class="flex flex-col md:flex-row items-start md:items-center gap-8 mb-12">
+        <div class="w-full md:w-1/3 flex justify-center md:justify-start">
+          <img
+            src="Mansour_v.2.jpeg"
+            alt="Portrait of Mansour Hussain"
+            class="w-56 h-56 object-cover rounded-2xl shadow-xl border border-slate-800"
+          />
+        </div>
+        <div class="w-full md:w-2/3">
+          <h2 class="text-2xl md:text-3xl font-semibold mb-3">
+            Senior Fraud Data & Technology Specialist
+          </h2>
+          <p class="text-slate-300 leading-relaxed mb-4">
+            I work at the intersection of <span class="text-cyan-400">fraud prevention</span>,
+            <span class="text-cyan-400">data analytics</span>, and
+            <span class="text-cyan-400">technology enablement</span>.  
+            I design and implement fraud solutions, build reports and dashboards, and
+            collaborate with business, IT, and regulators to reduce fraud risk.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="mb-12">
+        <h3 class="text-xl font-semibold mb-4">About</h3>
+        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 md:p-6">
+          <p class="text-slate-300 leading-relaxed mb-3">
+            I am a fraud data specialist with experience in banking and government sectors.
+            My work focuses on building fraud reports, supporting investigations, and
+            driving technology initiatives that improve fraud controls and customer
+            protection.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="mb-12">
+        <h3 class="text-xl font-semibold mb-4">Experience</h3>
+      </section>
+
+      <section id="projects" class="mb-12">
+        <h3 class="text-xl font-semibold mb-4">Highlighted Projects</h3>
+      </section>
+
+      <section id="contact" class="mb-10">
+        <h3 class="text-xl font-semibold mb-4">Contact</h3>
+        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 md:p-6">
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Feel free to reach out for collaboration, speaking opportunities, or
+            discussions about fraud analytics and banking technology.
+          </p>
+          <div class="space-y-1 text-sm">
+            <p>
+              <span class="text-slate-400">Email:</span>
+              <a
+                href="mailto:example@email.com"
+                class="text-cyan-400 hover:underline"
+                >example@email.com</a>
+            </p>
+            <p>
+              <span class="text-slate-400">Location:</span>
+              Riyadh, Saudi Arabia
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="border-t border-slate-800 pt-4 mt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-xs text-slate-500">
+        <p>© <span id="year"></span> Mansour Hussain. All rights reserved.</p>
+        <div class="flex gap-4">
+          <a href="https://www.linkedin.com/in/placeholder" target="_blank" class="hover:text-cyan-400 transition">LinkedIn</a>
+          <a href="https://twitter.com/placeholder" target="_blank" class="hover:text-cyan-400 transition">Twitter</a>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
